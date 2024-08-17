@@ -1,0 +1,112 @@
+/* public/css/request-sampel.css */
+
+/* Umum */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Container */
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Tambahkan shadow untuk efek yang lebih modern */
+}
+
+/* Logo */
+.logo img {
+    width: 150px;
+    display: block;
+    margin: 0 auto; /* Untuk memastikan logo berada di tengah (bila diperlukan) */
+}
+
+/* Header */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #dee2e6; /* Warna default Bootstrap untuk border */
+}
+
+th {
+    background-color: #f8f9fa; /* Gunakan warna latar belakang Bootstrap untuk heading */
+}
+
+/* Tombol Add Sample */
+.add-sample {
+    background-color: #007bff; /* Gunakan warna utama Bootstrap */
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: center;
+    border: none; /* Tambahkan border: none untuk konsistensi dengan tombol lainnya */
+}
+
+.add-sample:hover {
+    background-color: #0056b3;
+}
+
+/* Tombol Submit */
+.btn-submit {
+    background-color: #28a745; /* Gunakan warna hijau dari Bootstrap untuk tombol submit */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn-submit:hover {
+    background-color: #218838;
+}
+
+/* Form Control */
+input[type="text"], input[type="date"], textarea, select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ced4da; /* Warna border Bootstrap */
+    border-radius: 0.25rem; /* Bootstrap default radius */
+}
+
+/* Tombol Hapus */
+.btn-delete {
+    background-color: #dc3545; /* Gunakan warna merah dari Bootstrap */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+}
+
+/* Styling untuk input yang tidak valid */
+.is-invalid {
+    border-color: #dc3545;
+}
+
+.is-invalid:focus {
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25); /* Efek shadow saat fokus */
+}
